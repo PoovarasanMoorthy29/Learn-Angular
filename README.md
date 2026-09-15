@@ -1,4 +1,4 @@
-# 🚀 Learn Angular
+# Learn Angular
 
 > A hands-on Angular learning repository covering the fundamentals of Angular through practical examples and mini projects.
 
@@ -9,7 +9,7 @@
 
 ---
 
-## 📚 About This Repository
+##  About This Repository
 
 This repository contains my **Angular learning journey**, where I learn Angular concepts by building and experimenting with real code.
 
@@ -26,7 +26,7 @@ The goal is to build a strong foundation in Angular and eventually use it to dev
 
 ---
 
-## 🎯 Learning Goals
+## Learning Goals
 
 By completing this repository, I aim to become comfortable with:
 
@@ -50,7 +50,7 @@ By completing this repository, I aim to become comfortable with:
 
 ---
 
-## 🗺️ Learning Roadmap
+## Learning Roadmap
 
 ### 🟢 Fundamentals
 
