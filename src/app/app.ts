@@ -11,5 +11,5 @@ import { SideBar } from '../shared/side-bar/side-bar';
   
 })
 export class App {
-  title='Hello Angular!';
+  textSize="text-3xl";
 }
