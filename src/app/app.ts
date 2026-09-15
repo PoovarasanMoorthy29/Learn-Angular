@@ -11,5 +11,5 @@ import { SideBar } from '../shared/side-bar/side-bar';
   
 })
 export class App {
-  protected readonly title = signal('Learn-Angular');
+  title='Hello Angular!';
 }
