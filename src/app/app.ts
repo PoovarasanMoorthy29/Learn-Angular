@@ -17,7 +17,12 @@ export class App {
   // };
 
   onSuccess(e:boolean ){
-    alert(e);
+    if(e==true){
+      alert("Success!")
+    }
+    else{
+      alert("failed!")
+    }
   }
 
 }
