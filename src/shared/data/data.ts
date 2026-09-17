@@ -7,6 +7,12 @@ import { User } from '../../models/User';
   templateUrl: './data.html',
 })
 export class Data {
-  @Input() user !:User;
+  // @Input() user !:User;
+
+  @Output() success :EventEmitter<boolean>=new EventEmitter();
+
+  onSubmit(){
+    this.success.emit(true);
+  }
 
 }

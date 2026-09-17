@@ -11,9 +11,13 @@ import { Data } from '../shared/data/data';
   templateUrl: './app.html',
 })
 export class App {
-  user: User = {
-    name: 'John',
-    age: 23,
-  };
+  // user: User = {
+  //   name: 'John',
+  //   age: 23,
+  // };
+
+  onSuccess(e:boolean ){
+    alert(e);
+  }
 
 }
