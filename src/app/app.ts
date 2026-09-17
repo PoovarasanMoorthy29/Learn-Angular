@@ -28,4 +28,8 @@ export class App {
   // }
   input:string='john';
 
+  onSuccess(e:boolean){
+    console.log(e);
+  }
+
 }
