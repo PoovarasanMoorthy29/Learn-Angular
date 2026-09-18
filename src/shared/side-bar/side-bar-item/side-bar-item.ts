@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component ,Input} from '@angular/core';
 
 @Component({
   imports: [],
@@ -6,4 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './side-bar-item.css',
   templateUrl: './side-bar-item.html',
 })
-export class SideBarItem {}
+export class SideBarItem {
+  @Input() menuDetails!:{name:string,path:string};
+}
