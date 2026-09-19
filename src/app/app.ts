@@ -3,11 +3,11 @@ import { RouterOutlet } from '@angular/router';
 import { SideBar } from '../shared/side-bar/side-bar';
 import { User } from '../models/User';
 import { Data } from '../shared/data/data';
-import { FormsModule } from '@angular/forms';
+
 import { Sample } from '../shared/sample/sample';
 
 @Component({
-  imports: [RouterOutlet, SideBar, Data, FormsModule, Sample],
+  imports: [RouterOutlet, SideBar, Data,Sample],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
