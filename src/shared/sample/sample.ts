@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 @Component({
@@ -8,6 +8,10 @@ import { FormsModule } from '@angular/forms';
   templateUrl: './sample.html',
 })
 export class Sample {
-  input:string='john';
+  // input:string='john';
+
+  // ngOnInit(){
+  //   console.log("From Init..");
+  // }
   
 }

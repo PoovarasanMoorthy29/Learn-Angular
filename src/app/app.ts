@@ -20,13 +20,16 @@ export class App {
 
   // onSuccess(e:boolean ){
   //   if(e==true){
-  //     alert("Success!")
-  //   }
-  //   else{
-  //     alert("failed!")
-  //   }
-  // }
-  input:string='john';
+  // //     alert("Success!")
+  // //   }
+  // //   else{
+  // //     alert("failed!")
+  // //   }
+  // // }
+  // input:string='john';
+
+  
+
 
   onSuccess(e:boolean){
     console.log(e);
