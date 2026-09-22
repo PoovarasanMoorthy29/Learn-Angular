@@ -8,5 +8,7 @@ import { RouterLink } from '@angular/router';
   templateUrl: './side-bar-item.html',
 })
 export class SideBarItem {
-  @Input() route!:{path:string,name:string };
+  // @Input() route!:{path:string,name:string };
+
+  @Input() route!:{path:string , name:string};
 }
