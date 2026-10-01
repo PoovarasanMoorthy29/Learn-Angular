@@ -2,7 +2,11 @@
 <app-side-bar-item [route]="{path:'/notes' , name:'Notes'}"></app-side-bar-item>
 <app-side-bar-item [route]="{path:'/trash' , name:'Trash'}"></app-side-bar-item> -->
 
+@for(route of routes; track $index) {
+    <app-side-bar-item [route]="route"></app-side-bar-item>
 
-<app-side-bar-item [route]="{path:'/',name:'Home'}"></app-side-bar-item>
-<app-side-bar-item [route]="{path:'/notes',name:'Notes'}"></app-side-bar-item>
+}
+
+<!-- <app-side-bar-item [route]="{path:'/notes',name:'Notes'}"></app-side-bar-item>
 <app-side-bar-item [route]="{path:'/trash',name:'Trash'}"></app-side-bar-item>
+<app-side-bar-item [route]="{path:'/testing',name:'Testing'}"></app-side-bar-item> -->

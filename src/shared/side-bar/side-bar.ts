@@ -8,4 +8,10 @@ import { SideBarItem } from './side-bar-item/side-bar-item';
   templateUrl: './side-bar.html',
 })
 export class SideBar {
+  routes=[
+    {path:'/',name:'Home'},
+    {path:'/notes',name:'Notes'},
+    {path:'/trash',name:'Trash'},
+    // {path:'/testing',name:'Testing'}
+  ]
 }
